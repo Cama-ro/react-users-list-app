@@ -1,0 +1,27 @@
+.users-main form input {
+  width: 160px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: inherit;
+  border: 2px solid white;
+  border-radius: 10px;
+  outline: 0;
+}
+
+.users-main form button {
+  padding: 10px;
+  font-size: 16px;
+  font-family: inherit;
+  margin: 10px;
+  color: white;
+  background-color: darkorchid;
+  border: 2px solid darkorchid;
+  border-radius: 10px;
+  outline: 0;
+}
+
+.users-main form button:hover {
+  background-color: violet;
+  border: 2px solid violet;
+  cursor: pointer;
+}
