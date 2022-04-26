@@ -18,9 +18,10 @@ class Users extends Component {
     };
 
     this.setState((state) => {
-      return {
-        users: state.users.concat(newUser),
-      };
+      if (newUser.name !== "")
+        return {
+          users: state.users.concat(newUser),
+        };
     });
 
     this._inputName.value = "";
